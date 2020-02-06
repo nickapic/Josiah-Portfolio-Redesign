@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.header {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .header .title {
+    font-size: 4.5rem;
+    margin: 0;
+    text-transform: uppercase; }
+  .header .subtitle {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin: 0; }
+
+.hero-image {
+  z-index: -1;
+  position: absolute;
+  top: -35rem;
+  left: -50rem; }
+
+.about-me {
+  display: flex;
+  padding: 10rem;
+  height: 65vh;
+  overflow: hidden; }
+  .about-me_image {
+    width: 50%;
+    padding: 10rem;
+    position: relative;
+    overflow: hidden; }
+    .about-me_image-pic {
+      position: absolute;
+      top: -25rem;
+      width: 100%;
+      height: auto; }
+  .about-me_text-content {
+    width: 50%; }
+    .about-me_text-content_heading {
+      font-size: 1.4rem;
+      text-transform: uppercase; }
+    .about-me_text-content_paragraph {
+      padding: 2rem 0;
+      font-size: 1.5rem;
+      width: 80%; }
+
+.work-section {
+  min-height: 50vh;
+  padding-bottom: 10rem;
+  padding-left: 10rem; }
+  .work-section_text-content_heading {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .work-section_image-grid {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5rem; }
+
+.gallery-image {
+  width: 50rem;
+  padding: 1rem 1rem 0 0;
+  height: auto; }
