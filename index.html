@@ -8,115 +8,70 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
       rel="stylesheet"
     />
-    <script src="./index.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Josiah| Portfolio</title>
   </head>
   <body>
     <header class="header">
+      <nav class="navigation">
+        <div class="logo-box">
+          <h1 class="logo-box_logo">
+            <a href="index.html" class="logo-box_logo-link">AJS</a>
+          </h1>
+        </div>
+        <div class="navigation-bar">
+          <a href="./about.html" class="navigation-bar_item">About me</a>
+          <a href="./work.html" class="navigation-bar_item">Work</a>
+          <a href="./contactme.html" class="navigation-bar_item">Contact Me</a>
+          <a href="./price.html" class="navigation-bar_item">Prices</a>
+        </div>
+      </nav>
       <!--<img
         class="hero-image"
         src="https://i.ibb.co/wwpC6bP/DSC03869-min-1.jpg"
       /> -->
       <h1 class="title">
-        Josiah Tan Yue Xian
+        Alan Jones
       </h1>
-      <p class="subtitle">Freelance Photographer</p>
+      <p class="subtitle">Freelance Photographer and Editor</p>
     </header>
-    <body>
-      <div class="about-me" data-scroll>
-        <div class="about-me_text-content">
-          <h4 class="about-me_text-content_heading">
-            About Me
-          </h4>
-          <p class="about-me_text-content_paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, ipsa!
-            In exercitationem molestias ipsam temporibus dolorem rerum dolore
-            vel sapiente earum iusto. Quia magnam adipisci impedit saepe nam
-            eveniet similique? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Saepe voluptatem autem qui fugit, consequuntur
-            nemo repudiandae temporibus rem nisi, dignissimos id suscipit. Dolor
-            voluptatibus cumque soluta quam veniam mollitia iusto! Lorem ipsum
-            dolor, sit amet consectetur adipisicing elit. Similique rem
-            voluptate aliquid laudantium, maiores a aperiam enim quia aspernatur
-            ea ex sunt nisi! Aliquid dolor distinctio inventore quo ipsum
-            officiis?
-          </p>
-        </div>
-        <div class="about-me_image ">
-          <img
-            class="about-me_image-pic"
-            src="https://i.ibb.co/HzPPjRf/DSC05759-min.jpg"
-            alt="DSC05759-min"
-            border="0"
-          />
-        </div>
+    <main class="categories-section">
+      <div class="categories-section_category section-1">
+        <a href="./about.html" class="categories-section_category_link"
+          >About Us</a
+        >
       </div>
-      <div data-scroll class="work-section">
-        <h4 class="work-section_text-content_heading">
-          Work
-        </h4>
-        <div class="work-section_image-grid">
-          <img src="./images/img1.jpg" alt="Image 1" class="gallery-image" />
-          <img src="./images/img2.jpg" alt="Image 2" class="gallery-image" />
-          <img src="./images/img3.jpg" alt="Image 3" class="gallery-image" />
-          <img src="./images/img4.jpg" alt="Image 4" class="gallery-image" />
-          <img src="./images/img5.jpg" alt="Image 5" class="gallery-image" />
-          <img src="./images/img6.jpg" alt="Image 6" class="gallery-image" />
-        </div>
-        <a href="" class="work-section_button">See all</a>
+      <div class="categories-section_category section-2">
+        <a href="./contactme.html" class="categories-section_category_link"
+          >Contact Us</a
+        >
       </div>
-      <div data-scroll class="form-section">
-        <div class="contact-form_text-content">
-          <h4 class="contact-form_text-content_heading">
-            Contact Me
-          </h4>
-          <p class="contact-form_text-content_paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, ipsa!
-            In exercitationem molestias ipsam temporibus dolorem rerum dolore
-            vel sapiente earum iusto. Quia magnam adipisci impedit saepe nam
-            eveniet similique? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Saepe voluptatem autem qui fugit, consequuntur
-            nemo repudiandae temporibus rem nisi, dignissimos id suscipit. Dolor
-            voluptatibus cumque soluta quam veniam mollitia iusto! Lorem ipsum
-            dolor, sit amet consectetur adipisicing elit. Similique rem
-            voluptate aliquid laudantium, maiores a aperiam enim quia aspernatur
-            ea ex sunt nisi! Aliquid dolor distinctio inventore quo ipsum
-            officiis?
-          </p>
-        </div>
-        <form action="" class="contact-me">
-          <label for="fname">First Name</label>
-          <input
-            type="text"
-            id="fname"
-            name="firstname"
-            placeholder="Your name.."
-          />
-
-          <label for="lname">Last Name</label>
-          <input
-            type="text"
-            id="lname"
-            name="lastname"
-            placeholder="Your last name.."
-          />
-
-          <label for="subject">Subject</label>
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Write something.."
-            style="height:200px"
-          ></textarea>
-
-          <input type="submit" id="submit" value="Submit" />
-        </form>
+      <div class="categories-section_category section-3">
+        <a href="./price.html" class="categories-section_category_link"
+          >Our Prices</a
+        >
       </div>
-      <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
-      <script>
-        ScrollOut();
-      </script>
-    </body>
+      <div class="categories-section_category section-4">
+        <a href="./work.html" class="categories-section_category_link"
+          >Our Work</a
+        >
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="./about.html" class="footer-links_item">About me</a>
+        <a href="./work.html" class="footer-links_item">Work</a>
+        <a href="./contactme.html" class="footer-links_item">Contact Me</a>
+        <a href="./price.html" class="footer-links_item">Prices</a>
+      </div>
+      <div class="footer-text">
+        <p class="footer-text-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ut, hic
+          excepturi illum tempora nemo suscipit eius quos expedita saepe natus
+          quo est, et a minima facilis qui. Veritatis, ullam.
+        </p>
+      </div>
+    </footer>
+    <body></body>
   </body>
 </html>
