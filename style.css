@@ -252,6 +252,7 @@ body {
   border: none;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
   padding: 1rem 3rem;
   margin: 2rem 0;
   width: auto;
